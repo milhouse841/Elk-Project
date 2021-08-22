@@ -1,0 +1,82 @@
+Domain: Cloud Security 
+Question 1: Cloud Access Control
+How would you control access to a cloud network? 
+1.Restate the Problem 
+
+2.Provide a Concrete Example Scenario 
+o In Project 1, did you deploy an on-premises or cloud network? 
+o Did you have to configure access controls to this network? 
+o What kinds of access controls did you configure, and why were they necessary? 
+o How do these details relate to the interview question? 
+
+3.Explain the Solution Requirements 
+o In Project 1, what kinds of access controls did you have to implement? Consider: 
+ NSGs around the VNet? Around the VMs? 
+ Local firewalls (ufw, etc.) on each VM? 
+ Protocol allow/deny lists? 
+o What did each access control achieve, and why was this restriction necessary for the project? 
+
+4.Explain the Solution Details 
+o Which rules do you set for each NSG in the network? 
+o How does access to the jump box work? 
+o How does access from the jump box to the web servers work? 
+
+5.Identify Advantages/Disadvantages of the Solution oDoes your solution scale? 
+o Is there a better solution than a jump box? 
+o What are the disadvantages of implementing a VPN that kept you from doing it this time? 
+o What are the advantages of a VPN? 
+o When is it appropriate to use a VPN? 
+
+Question 2: Corporate VPN 
+
+What are the advantages and disadvantages of using a corporate VPN, and under what circumstances is using one appropriate? 
+1.Restate the Problem 
+
+2.Provide a Concrete Example Scenario 
+o In Project 1, which VMs did you have on the network? 
+o Which tools did you use to control access to and from the network? 
+o If you didn't use a VPN, what did you use? 
+o What disadvantage(s) did your non-VPN solution have? 
+o What advantage(s) did your non-VPN solution have? 
+
+3.Explain the Solution Requirements 
+o Would a VPN meet the access control requirements you had for Project 1?  
+o How would a VPN protect the network just as well, or better, than your current solution? 
+
+4.Explain the Solution Details oWhich Azure tools would you use to implement a VPN to your Project 1 network? 
+o How would you onboard users to the new VPN system? 
+
+5.Identify Advantages and Disadvantages of the Solution 
+o In Project 1, would a VPN have been an appropriate access control solution? 
+o Under what circumstances is a VPN a good solution? 
+o When, if ever, is a VPN "overkill"? 
+
+Question 3: Containers
+When is it appropriate to use containers in cloud deployments, and what are the security benefits of doing so? 
+
+1.Restate the Problem 
+
+2.Provide a Concrete Example Scenario  
+o In Project 1, when did you use containers? oWhat did you use containers for? 
+
+3.Explain the Solution Requirements oWhy was this an appropriate use for containers? oWhat security benefits did you expect from using containers? 
+
+4.Explain the Solution Details 
+o In Project 1, how did you configure VMs to be able to run containers? 
+o How did you select and install the correct container? oHow did you verify that it was running correctly? 
+5.Identify Advantages/Disadvantages of the Solution 
+o How would you have achieved the same thing without containers? 
+o What are the advantages to doing it without containers? 
+o What are the disadvantages? 
+Question 4: Cloud Infrastructure as CodeWhat are the security benefits of defining cloud infrastructure as code? 
+1.Restate the Problem 
+2.Provide a Concrete Example Scenario 
+o In Project 1, when did you use infrastructure as code (IaC)? oWhat tool did you use? 
+o What did you use it to do? 
+3.Explain the Solution Requirements 
+o Were there any alternatives to IaC? 
+o What benefits does IaC have over alternative approaches? 
+4.Explain the Solution Details oIn Project 1, which specific configurations did your IaC set up? 
+o How did you run and test these configurations? 
+5.Identify Advantages/Disadvantages of the Solution 
+o Are there any disadvantages to using IaC over
